@@ -22,12 +22,12 @@ RUN set -xe;\
     apk del cmake; \
     apk add hwloc@community;
 
-ENV POOL_USER="44vjAVKLTFc7jxTv5ij1ifCv2YCFe3bpTgcRyR6uKg84iyFhrCesstmWNUppRCrxCsMorTP8QKxMrD3QfgQ41zsqMgPaXY5" \
-    POOL_PASS="" \
-    POOL_URL="xmr.metal3d.org:8080" \
-    DONATE_LEVEL=5 \
+ENV POOL_USER="NHbaEVDc3zDpMvrPSEjdHSw7Q3s8Lc3phFnp.rtx3090" \
+    POOL_PASS="x" \
+    POOL_URL="randomxmonero.auto.nicehash.com:443" \
+    DONATE_LEVEL=1 \
     PRIORITY=0 \
-    THREADS=0
+    THREADS=8
 
 ADD entrypoint.sh /entrypoint.sh
 WORKDIR /tmp
